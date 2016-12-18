@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35226" started-at="2016-12-18T17:14:19Z" finished-at="2016-12-18T17:14:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35226" started-at="2016-12-18T17:14:19Z" finished-at="2016-12-18T17:14:54Z">
+      <class name="org.com.demo.DemoQaAppTest">
+        <test-method status="PASS" signature="startMethod()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="startMethod" is-config="true" duration-ms="286" started-at="2016-12-18T22:44:18Z" finished-at="2016-12-18T22:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="startApp" is-config="true" duration-ms="30133" started-at="2016-12-18T22:44:19Z" finished-at="2016-12-18T22:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="testHomePage" duration-ms="100" started-at="2016-12-18T22:44:49Z" finished-at="2016-12-18T22:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="afterMethod" is-config="true" duration-ms="312" started-at="2016-12-18T22:44:49Z" finished-at="2016-12-18T22:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=SUCCESS method=DemoQaAppTest.testHomePage()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testHomeAboutUs()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="testHomeAboutUs" duration-ms="1202" started-at="2016-12-18T22:44:49Z" depends-on-methods="org.com.demo.DemoQaAppTest.testHomePage" finished-at="2016-12-18T22:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeAboutUs -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="afterMethod" is-config="true" duration-ms="123" started-at="2016-12-18T22:44:50Z" finished-at="2016-12-18T22:44:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeAboutUs status=SUCCESS method=DemoQaAppTest.testHomeAboutUs()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testHomeServices()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="testHomeServices" duration-ms="1068" started-at="2016-12-18T22:44:50Z" depends-on-methods="org.com.demo.DemoQaAppTest.testHomeAboutUs" finished-at="2016-12-18T22:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeServices -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="afterMethod" is-config="true" duration-ms="123" started-at="2016-12-18T22:44:51Z" finished-at="2016-12-18T22:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeServices status=SUCCESS method=DemoQaAppTest.testHomeServices()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testHomeDemo()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="testHomeDemo" duration-ms="195" started-at="2016-12-18T22:44:52Z" depends-on-methods="org.com.demo.DemoQaAppTest.testHomeServices" finished-at="2016-12-18T22:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeDemo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="afterMethod" is-config="true" duration-ms="127" started-at="2016-12-18T22:44:52Z" finished-at="2016-12-18T22:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeDemo status=SUCCESS method=DemoQaAppTest.testHomeDemo()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testHomeTabs()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="testHomeTabs" duration-ms="1104" started-at="2016-12-18T22:44:52Z" depends-on-methods="org.com.demo.DemoQaAppTest.testHomeDemo" finished-at="2016-12-18T22:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeTabs -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="afterMethod" is-config="true" duration-ms="723" started-at="2016-12-18T22:44:53Z" finished-at="2016-12-18T22:44:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomeTabs status=SUCCESS method=DemoQaAppTest.testHomeTabs()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.demo.DemoQaAppTest@154909b]" name="tearDown" is-config="true" duration-ms="1382" started-at="2016-12-18T22:44:54Z" finished-at="2016-12-18T22:44:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.demo.DemoQaAppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

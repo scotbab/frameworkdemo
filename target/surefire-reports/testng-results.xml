@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken and pasted]]>
+    </line>
+  </reporter-output>
+  <suite name="Tests" duration-ms="12283" started-at="2016-12-18T02:16:56Z" finished-at="2016-12-18T02:17:09Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="12283" started-at="2016-12-18T02:16:56Z" finished-at="2016-12-18T02:17:09Z">
+      <class name="org.com.demo.SampleTestNgTest">
+        <test-method status="PASS" signature="startMethod()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="startMethod" is-config="true" duration-ms="259" started-at="2016-12-18T07:46:56Z" finished-at="2016-12-18T07:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="startApp" is-config="true" duration-ms="12054" started-at="2016-12-18T07:46:56Z" finished-at="2016-12-18T07:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testHomePageHasAHeader()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="testHomePageHasAHeader" duration-ms="32" started-at="2016-12-18T07:47:08Z" finished-at="2016-12-18T07:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageHasAHeader -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="afterMethod" is-config="true" duration-ms="99" started-at="2016-12-18T07:47:08Z" finished-at="2016-12-18T07:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageHasAHeader status=SUCCESS method=SampleTestNgTest.testHomePageHasAHeader()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testProfile()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="testProfile" duration-ms="1" started-at="2016-12-18T07:47:08Z" depends-on-methods="org.com.demo.SampleTestNgTest.testHomePageHasAHeader" finished-at="2016-12-18T07:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfile -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="afterMethod" is-config="true" duration-ms="89" started-at="2016-12-18T07:47:08Z" finished-at="2016-12-18T07:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProfile status=SUCCESS method=SampleTestNgTest.testProfile()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken and pasted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.com.demo.SampleTestNgTest@11be3c5]" name="tearDown" is-config="true" duration-ms="1756" started-at="2016-12-18T07:47:09Z" finished-at="2016-12-18T07:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.com.demo.SampleTestNgTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Tests -->
+</testng-results>
